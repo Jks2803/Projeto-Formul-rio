@@ -218,11 +218,11 @@ body {
 }
 
 @media (max-width: 1153px) {
-  .content-img {
+  .container-img {
     display: none;
   }
 
-  .content-login {
+  .container-login {
     flex: 1;
   }
 
