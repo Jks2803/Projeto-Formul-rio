@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <main class="content">
+      <div class="content-img">
+        <img src="./assets/image.png" alt="imagem de 3 bonecos coloridos" />
+      </div>
+      <!--Content-img finaliza-->
+
+      <div class="content-login">
+        <div class="content-login-header">
+          <img src="./assets/Icon.svg" alt="icone trevo" />
+
+          <div class="content-login-header-text">
+            <h1>Welcome Back!</h1>
+            <h6>Please enter your details</h6>
+          </div>
+        </div>
+        <!--Content-login-header finaliza-->
+
+        <div class="content-login-forms">
+          <form action="#">
+            <div class="input-single">
+              <span>Email</span>
+              <input type="email" name="email" id="email" class="input" />
+            </div>
+
+            <div class="input-single">
+              <span>Password</span>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="input"
+              />
+
+              <div class="input-action">
+                <img src="./assets/Desktop/Vector.svg" alt="eyes" />
+              </div>
+            </div>
+
+            <div class="container-options">
+              <div class="container-remember">
+                <input type="checkbox" id="remember-me" />
+                <span for="remember-me">Remember me for 30 days</span>
+              </div>
+
+              <a href="#" class="container-password">Forgot Password?</a>
+            </div>
+          </form>
+        </div>
+
+        <div class="content-login-Button">
+          <button class="button button-primary">
+            <span>Login in</span>
+          </button>
+
+          <button class="button button-secundary">
+            <img src="./assets/Desktop/Google.svg" alt="Icon Google" />
+            <span>Login in with Google</span>
+          </button>
+        </div>
+
+        <div class="content-login-footer">
+          <span>Don't have an account?</span>
+          <a href="#">Sign Up</a>
+        </div>
+      </div>
+      <!--Content-login finaliza-->
+    </main>
+  </body>
+</html>
